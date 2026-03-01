@@ -1,0 +1,40 @@
+﻿<Page x:Class="Library2.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Library2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Login">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="393*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/images.jfif"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="280.797"></RowDefinition>
+            <RowDefinition Height="27.203"/>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label FontSize="40" HorizontalAlignment="Left" FontWeight="Bold" Grid.Row="0" Margin="321,0,0,0">Log In</Label>
+        <StackPanel HorizontalAlignment="Left" Margin="300,63,0,0" Grid.RowSpan="3">
+            
+            <Label FontSize="20" FontStyle="Italic" Name="sinemail" >Email</Label>
+            <TextBox Background="AliceBlue" Height="25" Width="200" Name="boxsinemail" ></TextBox>
+            <Label FontSize="20" FontStyle="Italic"  Name="sinpassword" >Password</Label>
+            <TextBox Background="AliceBlue" Height="25" Width="200"  Name="boxsinpassword"></TextBox>
+                       
+        </StackPanel>
+        
+        <Button Height="35" Width="100" Background="LightGray"  Grid.Row="1" Margin="495,33,191,11" Click="btnlogin_Click" Name="btnlogin">Login</Button>
+       
+
+
+    </Grid>
+</Page>
