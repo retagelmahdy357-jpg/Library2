@@ -29,6 +29,7 @@
             <TextBox Background="AliceBlue" Height="25" Width="200" Name="boxsinemail" ></TextBox>
             <Label FontSize="20" FontStyle="Italic"  Name="sinpassword" >Password</Label>
             <TextBox Background="AliceBlue" Height="25" Width="200"  Name="boxsinpassword"></TextBox>
+<label>edit>
                        
         </StackPanel>
         
